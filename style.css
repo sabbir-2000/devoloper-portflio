@@ -5,16 +5,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .rokom{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
 .zero{
     width: 50%;
-    padding: 3%;
+    padding: 5%;
 }
 .zero img{
  width: 80%;
@@ -37,3 +40,36 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exprience-iteam{
+    box-shadow: 10px 10px  30px gray;
+ width: 40%;
+ margin-left: 5%;
+ margin-right: 5%;
+ padding: 5%;
+ border-radius: 5px;
+ 
+}
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(77, 29, 24),tomato);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+    
+.exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+      
+ }
+ footer p{
+     text-align: center;
+     font-size: 15px;
+     font-weight: 600;
+     color: rgb(190, 21, 153);
+     
+ }
