@@ -1,0 +1,33 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.rokom{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.zero{
+    width: 50%;
+    padding: 3%;
+}
+.zero img{
+ width: 80%;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+   background-repeat: no-repeat; 
+
+}
